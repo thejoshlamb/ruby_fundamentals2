@@ -6,3 +6,9 @@ def showlist(grocery_list)
 end
 
 showlist(grocery_list)
+
+grocery_list << "rice"
+
+showlist(grocery_list)
+
+puts "You Grocery List is #{grocery_list.length} items long."
