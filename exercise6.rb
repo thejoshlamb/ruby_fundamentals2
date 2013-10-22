@@ -11,4 +11,6 @@ grocery_list << "rice"
 
 showlist(grocery_list)
 
-puts "You Grocery List is #{grocery_list.length} items long."
+puts "Your Grocery List is #{grocery_list.length} items long"
+
+puts (grocery_list.include?("bananas") ? "You need some bananas" : "No need for bananas!")
